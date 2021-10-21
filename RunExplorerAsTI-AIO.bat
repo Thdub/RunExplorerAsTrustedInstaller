@@ -23,7 +23,7 @@ exit /b
 
 :No_Admin
 echo You must run this script as administrator.
-<nul set /p DummyName=Press any key to exit...%show_cursor%
+<nul set /p DummyName=Press any key to exit...
 pause >nul
 exit /b
 
